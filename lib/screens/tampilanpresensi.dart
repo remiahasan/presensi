@@ -43,7 +43,7 @@ class _TampilanPresensiState extends State<TampilanPresensi> {
             SnackBar(content: Text('presensi telah disimpan.'))
           );
           },
-          child: Text('simpan')
+          child: Text('simpan'),
         ),
       ),
     );

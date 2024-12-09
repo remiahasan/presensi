@@ -10,7 +10,10 @@ class Riwayat extends StatelessWidget {
     final attendanceHistory =
         Provider.of<DataMahasiswa>(context).historyKehadiran;
     return Scaffold(
-      appBar: AppBar(title: Text('Riwayat Kehadiran')),
+      appBar: AppBar(title:
+      Text('Riwayat Kehadiran'),
+      backgroundColor: Colors.green,
+      ),
       body: attendanceHistory.isEmpty
           ? Center(child: Text('Belum ada riwayat kehadiran.'))
           : ListView.builder(
