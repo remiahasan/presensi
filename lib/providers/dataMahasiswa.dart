@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tugas_mobile/models/mahasiswa.dart';
 
-
 class DataMahasiswa with ChangeNotifier {
   final List<Mahasiswa> _mahasiswa = [
     Mahasiswa(nama: 'Tono'),
